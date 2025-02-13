@@ -51,11 +51,13 @@ function App() {
         <h1>Calculator</h1>
         <input
           className="input-field"
+          type="number"
           value={num1}
           onChange={(e) => setNum1(e.target.value)}
         />
         <input
           className="input-field"
+          type="number"
           value={num2}
           onChange={(e) => setNum2(e.target.value)}
         />
