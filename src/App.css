@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+h2 {
+  font-size: 2.2em;
+  line-height: 1.1;
+}
+
 .container {
   display: flex;
   flex-direction: column; 
@@ -17,7 +22,7 @@
   width: 100%;
   max-width: 400px;
   text-align: center;
-  background: #ffd6f5;
+  background: #d6e3ff;
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
