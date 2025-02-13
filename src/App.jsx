@@ -38,29 +38,28 @@ function App() {
   };
 
   return (
-    <div class="container"> 
-    
-      <div class="section">
+    <div className="container"> 
+      <div className="section">
         <h1>Counter</h1>
         <h2>{count}</h2>
-        <button class="decrease-btn" onClick={() => setCount(count > 0 ? count - 1 : 0)}>Decrease</button>
-        <button class="increase-btn" onClick={() => setCount(count + 1)}>Increase</button>
-        <button class="reset-btn" onClick={() => setCount(0)}>Reset</button>
+        <button className="decrease-btn" onClick={() => setCount(count > 0 ? count - 1 : 0)}>Decrease</button>
+        <button className="increase-btn" onClick={() => setCount(count + 1)}>Increase</button>
+        <button className="reset-btn" onClick={() => setCount(0)}>Reset</button>
       </div>
  
-      <div class="section">
+      <div className="section">
         <h1>Calculator</h1>
         <input
-          class="input-field"
+          className="input-field"
           value={num1}
           onChange={(e) => setNum1(e.target.value)}
         />
         <input
-          class="input-field"
+          className="input-field"
           value={num2}
           onChange={(e) => setNum2(e.target.value)}
         />
-        <div class="operators">
+        <div className="operators">
           <button onClick={() => Calculate("+")}> + </button>
           <button onClick={() => Calculate("-")}> - </button>
           <button onClick={() => Calculate("x")}> × </button>
